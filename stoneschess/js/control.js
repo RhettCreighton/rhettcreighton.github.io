@@ -235,6 +235,7 @@ $(document).ready(function () {
                                 var viewAs = window.localStorage && window.localStorage[gameName+".view-as"];
                                 if(viewAs) {
                                     $("#view-as").val(viewAs).trigger("change");
+				}
 				else {
                                     $("#view-as").val(Jocly.PLAYER_A).trigger("change");
                                 }
